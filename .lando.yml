@@ -1,0 +1,8 @@
+name: family-dashboard
+recipe: drupal8
+config:
+  webroot: .
+tooling:
+  drupal: 
+    service: appserver
+    cmd: drupal --root=/app/vendor/drupal/console/bin/drupal

@@ -1,0 +1,14 @@
+name: Family Dashboard
+type: theme
+description: 'Family Dashboard custom theme'
+package: Family
+core: 8.x
+libraries:
+  - family_dashboard/global-styling
+ 
+base theme: bootstrap_barrio
+
+regions:
+  content: Content
+  header: Header
+  footer: Footer
